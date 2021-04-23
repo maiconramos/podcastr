@@ -12,7 +12,6 @@ function MyApp({ Component, pageProps }) {
     <div className={styles.wrapper}>
       <main>
         <Header />
-        <Home />
         <Component {...pageProps} />
       </main>
       <Player />

@@ -43,6 +43,8 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
             )
           })}
         </ul>
+
+       
       </section>
       <section className={styles.allEpisodes}></section>
     </div>
@@ -56,7 +58,7 @@ export const getStaticProps: GetStaticProps = async () => {
       _sort: 'published_at',
       _order: 'desc'
     }
-  })
+  });
 
   const episodes = data.map(episode => {
     return {
@@ -74,7 +76,6 @@ export const getStaticProps: GetStaticProps = async () => {
 
   const latestEpisodes = episodes.slice(0, 2);
   const allEpisodes = episodes.slice(2, episodes.length);
-
    return {
      props: {
       latestEpisodes,
