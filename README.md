@@ -85,7 +85,7 @@ yarn dev
 # 📝 License
 
 
-<a href="https://github.com/mathrb22/podcastrnext/blob/main/LICENSE.md">
+<a href="https://github.com/maiconramos/podcastr/blob/main/LICENSE">
     <img alt="GitHub License" src="https://img.shields.io/github/license/maiconramos/podcastr">
 </a>
 
