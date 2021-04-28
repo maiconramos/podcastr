@@ -6,7 +6,7 @@
 <!-- Menu -->
 <p align="center">
 <a href="#project">Project</a></a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#technologies-">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#getting-started">Getting started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#licença">Licença</a>
@@ -32,12 +32,13 @@
   </a>
 </p>
  
-# Podcastr <img src=".github/logo-podcastr.svg" width="30" alt="logo icon">
+# <img src=".github/logo-podcastr.svg" width="30" alt="logo icon"> Podcastr
 
 Podcastr is the project developed during the React track of the fifth edition of Next Level Week, an online event produced by Rocketseat.
 
 This is a web application that allows users to listen to their favorite podcasts, view releases and get more information about the podcasts they are currently listening to.
 
+![Podcastr preview](.github/app-preview.png)
 
 # 🧪 Technologies
 
@@ -45,10 +46,19 @@ The layout of the **Podcastr** application screens was developed by the ** Rocke
 You can access the layout through this link: [**Podcastr**](https://www.figma.com/file/UwFEntsHpHYJlHNQAQr4gA/Podcastr/duplicate).
 
 
-# 🚀 Technologies
+## 🚀 Technologies
 
-This project was developed with the following technologies and tools:
+<div align="center">
+  <br />
+  <img src=".github/tech-logos.png" alt="Technologies used">
+</div>
 
+This project was developed using cutting edge front-end technologies.
+
+
+- [ReactJS](https://reactjs.org/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Next.js](https://nextjs.org/)
 
 # 🔧 Getting started
 
@@ -89,18 +99,21 @@ yarn dev
     <img alt="GitHub License" src="https://img.shields.io/github/license/maiconramos/podcastr">
 </a>
 
-This project is under the **MIT** license. See the _ **LICENSE** _ file for more details.
+This project is under the **MIT** license. See the _**LICENSE**_ file for more details.
 
 
 # ✉️ Contact 
-| <img src="https://github.com/maiconramos.png" width=100><br><sub><a href="https://www.instagram.com/maiconramosx">@maiconramosx</a></sub> |
+<div align="center">
+
+| <img  src="https://github.com/maiconramos.png" width=100><br><sub><a href="https://www.instagram.com/maiconramosx">@maiconramosx</a></sub> |
 | :---: |
 
-<p align="left">
+<p align="center">
     <a href="https://www.linkedin.com/in/maicon-ramos/">
         <img alt="Maicon Ramos / Linkedin" src="https://img.shields.io/badge/-Maicon Ramos-8257e5?style=flat&logo=Linkedin&logoColor=fff" />
     </a>
 </p>
+</div>
 
 <h5 align="center">
   &copy;2021 - <a href="https://github.com/maiconramos/">Maicon Ramos</a>
