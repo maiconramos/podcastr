@@ -2,6 +2,7 @@
     padding: 0 4rem;
     height: calc(100vh - 6.5rem);
     overflow-y: scroll;
+    overflow-x: hidden;
 
     h2{
         margin-top: 3rem;
@@ -11,9 +12,14 @@
     .latestEpisodes{
         ul{
             list-style: none;
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
+            display: flex;
+            flex-direction: row;
             gap: 1.5rem;
+            flex-wrap: wrap;
+
+            @media screen and (min-width: 1600px) {
+                flex-wrap: nowrap;
+            }
         }
 
         li{
@@ -24,6 +30,11 @@
             position: relative;
             display: flex;
             align-items: center;
+            width: 100%;
+
+            .thumbLatest{
+                min-width: 96px;
+            }
         }
 
         img{
